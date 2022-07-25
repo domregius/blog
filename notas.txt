@@ -1,0 +1,36 @@
+Guilherme Feulo do Espirito Santo
+Danilo Miguel
+
+Curso Samsung
+
+https://docs.google.com/presentation/d/1m6ge7FPWfMegtHOxj0Xsmse4kmNAUsxXsNHqEBwNLe8/edit#slide=id.p5
+
+https://flask.palletsprojects.com/en/2.1.x/tutorial/
+
+
+https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
+
+https://github.com/domregius/blog
+
+https://github.com/domregius/blog.git
+
+https://gitpod.io/#github.com/domregius/blog.git
+
+https://domregius-blog-fk6re0uphxp.ws-us54.gitpod.io/
+
+pip install flask
+pip freeze > requirements.txt
+
+---------------------------
+25/07/2022
+
+flask --version
+pip install --upgrade pip
+pip freeze > requiements.txt
+
+echo $USER
+echo $HOME
+
+flask run -p 3000
+
+pip install -r requirements.txt
