@@ -9,4 +9,12 @@ def hello():
     
 @app.route("/meucontato")
 def zebra():
-    return "domregius@gmail.com"
+    return """<html>
+    <head>
+        <title>Meu contato</title>
+    <body>
+        domregius
+    </body>
+    </head>
+    
+    <html>"""
