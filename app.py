@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask("hello")
 
@@ -9,12 +9,5 @@ def hello():
     
 @app.route("/meucontato")
 def zebra():
-    return """<html>
-    <head>
-        <title>Meu contato</title>
-    <body>
-        domregius
-    </body>
-    </head>
-    
-    <html>"""
+    return render_template('index.html')
+        
