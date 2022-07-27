@@ -1,10 +1,18 @@
-<html>
-    <head>
-        <title>Meu contato</title>
-        <body>
-            <h1>domregius </h1>
-            <h2>alberto</h2>
-        </body>  
-    </head>
-    
-<html>
+{% extends "base.html" %}
+
+{% block content %}
+            {% for post in posts  %}
+            <article class="post">
+                <head>
+                    <div>
+                        <h1>{{post.title}}</h1>
+                        <div class="about">by {{ post.author }} on {{post.created.strftime('%d/%m/%Y')}}</div>
+                    </div>
+                </head>
+                <p class="body">{{post.body}}</p>
+            </article>
+            {% if not loop.last %}
+                <hr>
+            {% endif %}
+            {% endfor %}
+{% endblock %}
