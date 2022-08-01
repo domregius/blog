@@ -23,6 +23,8 @@ pip freeze > requirements.txt
 
 ---------------------------
 25/07/2022
+Danilo Souza Miguel
+
 
 flask --version
 pip install --upgrade pip
@@ -33,4 +35,93 @@ echo $HOME
 
 flask run -p 3000
 
-pip install -r requirements.txt
+.gitignore
+
+
+27/07/2022
+Felipe Barbosa
+banco de dados para posts
+
+28/07/2022
+Felipe Barbosa
+
+dbeaver community
+
+REGISTRO DE USUARIO 
+LOGIN
+LOGOUT
+
+heroku CRIAR CONTA
+
+
+
+
+
+29/07/2022
+Felipe Barbosa
+
+
+curl https://cli-assets.heroku.com/install.sh | sh
+
+heroku -v
+pip install gunicorn psycopg2
+
+eroku api key
+
+e2b564d1-5c31-4aa4-b0b8-20ba03355c22
+
+heroku login -i
+
+gitpod /workspace/blog (main) $ piap install gunicon
+gitpod /workspace/blog (main) $ heroku login -i
+heroku: Enter your login credentials
+Email: domregius@gmail.com
+Password: ************************************
+Logged in as domregius@gmail.com
+
+
+heroku create blog-domregius
+
+gitpod /workspace/blog (main) $ heroku create blog-domregius
+Creating ⬢ blog-domregius... done
+https://blog-domregius.herokuapp.com/ | https://git.heroku.com/blog-domregius.git
+gitpod /workspace/blog (main) $ 
+
+
+heroku addons:create heroku-postgresql:hobby-dev --app blog-domregius
+
+
+gitpod /workspace/blog (main) $ heroku create blogregis
+Creating ⬢ blogregis... done
+https://blogregis.herokuapp.com/ | https://git.heroku.com/blogregis.git
+gitpod /workspace/blog (main) $ heroku addons:create heroku-postgresql:hobby-dev -app blogregis
+ ▸    Unexpected argument blogregis
+gitpod /workspace/blog (main) $ heroku addons:create heroku-postgresql:hobby-dev --app blogregis
+Creating heroku-postgresql:hobby-dev on ⬢ blogregis... free
+Database has been created and is available
+ ! This database is empty. If upgrading, you can transfer
+ ! data from another database with pg:copy
+Created postgresql-spherical-93669 as DATABASE_URL
+Use heroku addons:docs heroku-postgresql to view documentation
+gitpod /workspace/blog (main) $ 
+
+gitpod /workspace/blog (main) $ heroku config --app blogregis
+=== blogregis Config Vars
+DATABASE_URL: postgres://qixsaormhpccvv:683a01ede61e0d6ed60fe421f77f61d2c5c154430f24a3a7027619d393d64f4c@ec2-18-214-35-70.compute-1.amazonaws.com:5432/d2o74d8je8mm7f
+
+git push heroku main
+
+
+
+
+Parabéns pelo excelente trabalho, Guilherme Feulo!
+O curso foi excelente!
+Obrigado!
+
+
+Segue para seu conhecimento o registro da reunião realizada hoje na SEDUC
+
+Atenciosamente,
+
+Regis Alberto Müller da Silva
+Registro da reunião realizada na SEDUC para identificação das expectativas do cliente quanto à implantação do novo SIGEAM
